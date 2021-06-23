@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red; /* debugging */
+    /*border: 1px solid red; !* debugging *!*/
 }
 
 body {
@@ -13,6 +13,13 @@ body {
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
+}
+
+.status {
+    font-size: 150%;
+    color: green;
+    padding: 10px;
+    font-weight: bold;
 }
 
 .cards {
@@ -27,6 +34,8 @@ body {
     height: 200px;
     width: 170px;
     margin: 10px;
+    overflow: visible;
+    /*box-shadow: 0 0 5px rgba(0,0,0,0.5);*/
 }
 
 .cards .card .card-inner {
@@ -42,11 +51,13 @@ body {
 }
 
 .cards .card .card-inner .card-front {
-    background: blue;
+    background: green;
     height: 100%;
     width: 100%;
     position: absolute;
     backface-visibility: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 .cards .card .card-inner .card-back {
@@ -58,4 +69,6 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }

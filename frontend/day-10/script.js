@@ -94,3 +94,4 @@ for(let i = 0; i < noOfCards; i++){
 }
 // cards.style.maxWidth = `${noOfCards * 191 / 4}px`
 console.log(images)
+statusDiv.append(`Total Moves ${cardFlipsCount}, Total Points ${totalPoints}`)
