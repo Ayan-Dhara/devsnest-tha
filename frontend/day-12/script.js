@@ -6,8 +6,10 @@ let selectedItem = null;
 
 listedAdd.addEventListener("click", (event)=>{
     let div = document.createElement("div")
-    lists[0].append(div)
     let data = prompt("Enter your task")
+    if(!data)
+        return
+    lists[0].append(div)
     div.textContent = data
     div.draggable = true
     div.className = "item"
