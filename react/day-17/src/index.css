@@ -11,11 +11,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 30px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco,
-  Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
