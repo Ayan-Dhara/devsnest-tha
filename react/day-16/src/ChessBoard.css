@@ -1,3 +1,10 @@
+.chess-board-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 .chess-board {
     border: 10px solid black;
     padding: 1px;

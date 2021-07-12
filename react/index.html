@@ -59,7 +59,7 @@
     for(let item of list){
         let li = document.createElement("li")
         let link = document.createElement("a")
-        link.href = item
+        link.href = item + "/build"
         link.innerHTML = "&#128193; " + item
         li.append(link)
         listElement.append(li)
