@@ -7,7 +7,7 @@ function App() {
     <div className="calorie-list">
       {
         CalorieList.map(item => {
-          return <CalorieCard name={item.foodName} calorie={item.calories}/>
+          return <CalorieCard key={item.foodName} name={item.foodName} calorie={item.calories}/>
         })
       }
     </div>
