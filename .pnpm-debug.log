@@ -4,12 +4,12 @@
   },
   "1 error pnpm": {
     "code": "ERR_PNPM_CANNOT_REMOVE_MISSING_DEPS",
-    "hint": "Available dependencies: pnpm, postcss, postcss-combine-duplicated-selectors, sass, serve",
+    "hint": "Available dependencies: live-server, node, nvm",
     "err": {
       "name": "Error",
-      "message": "Cannot remove 'live-server': no such dependency found in 'dependencies'",
+      "message": "Cannot remove 'react-router-dom': no such dependency found",
       "code": "ERR_PNPM_CANNOT_REMOVE_MISSING_DEPS",
-      "stack": "Error: Cannot remove 'live-server': no such dependency found in 'dependencies'\n    at Object.handler (/home/ayan/.nvm/versions/node/v16.3.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.10.0/node_modules/pnpm/dist/pnpm.cjs:116557:15)\n    at async Timeout._onTimeout (/home/ayan/.nvm/versions/node/v16.3.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.10.0/node_modules/pnpm/dist/pnpm.cjs:124651:24)"
+      "stack": "Error: Cannot remove 'react-router-dom': no such dependency found\n    at Object.handler (/home/ayan/.nvm/versions/node/v16.3.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.10.0/node_modules/pnpm/dist/pnpm.cjs:116557:15)\n    at async Timeout._onTimeout (/home/ayan/.nvm/versions/node/v16.3.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.10.0/node_modules/pnpm/dist/pnpm.cjs:124651:24)"
     }
   }
 }
