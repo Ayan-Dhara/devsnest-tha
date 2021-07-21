@@ -12,7 +12,7 @@ function ToDoList(props) {
   )
 
   const addEntry = (entry) => {
-    let entryList_ = [...entryList, {...entry, time: Date.now()}]
+    let entryList_ = [...entryList,{...entry, time: Date.now()}]
     localStorage.setItem("todo_list", JSON.stringify(entryList_))
     updateList(entryList_)
   }
