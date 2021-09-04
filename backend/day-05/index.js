@@ -1,10 +1,8 @@
 #!node
 
 const fs = require('fs');
-
 (()=> {
     const args = process.argv
-
     let option = null;
     let help;
     let action;

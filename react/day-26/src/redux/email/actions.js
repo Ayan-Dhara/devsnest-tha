@@ -1,4 +1,4 @@
-import {SET_EMAIL} from "./constants";
+import {SET_EMAIL} from "../keywards";
 
 const setEmail = (username) => {
   return {

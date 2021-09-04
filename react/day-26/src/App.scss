@@ -24,23 +24,3 @@
     text-align: left;
   }
 }
-
-.coming:after {
-  content: " .";
-  animation: animate 2s linear infinite;
-}
-
-@keyframes animate {
-  0%, 100% {
-    content: "";
-  }
-  25% {
-    content: " .";
-  }
-  50% {
-    content: " . .";
-  }
-  75% {
-    content: " . . .";
-  }
-}

@@ -1,11 +1,15 @@
-import './App.css';
+import './App.scss';
+import InputForm from "./components/InputForm";
+import WeatherView from "./components/WeatherView";
+import {useSelector} from "react-redux";
+
 
 function App() {
+  const theme = useSelector(state => state.theme)
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="coming">Coming Soon</div>
-      </header>
+    <div className={`App ${theme ? "light" : "dark"}`}>
+      <InputForm/>
+      <WeatherView/>
     </div>
   );
 }

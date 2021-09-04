@@ -1,4 +1,4 @@
-import {SET_USERNAME} from "./constants";
+import {SET_USERNAME} from "../keywards";
 
 const setUsername = (username) => {
   return {
