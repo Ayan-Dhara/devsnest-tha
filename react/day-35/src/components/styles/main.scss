@@ -16,6 +16,7 @@ div.main {
     }
     .posts {
       width: $min-break;
+      display: none;
       @media all and (max-width: $min-break + 20px) {
         width: 100%;
       }
@@ -23,7 +24,7 @@ div.main {
     .options {
       width: $max-break - $min-break;
       @media all and (max-width: $max-break + 100px) {
-        display: none;
+        //display: none;
       }
     }
   }

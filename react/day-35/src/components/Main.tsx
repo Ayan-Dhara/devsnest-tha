@@ -3,7 +3,7 @@ import './styles/main.scss'
 import Posts from "./Posts";
 import Options from "./Options";
 
-const NavBar = () => {
+const Main = () => {
   return (
     <div className="main">
       <div className="container">
@@ -14,4 +14,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Main;

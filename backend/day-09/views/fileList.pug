@@ -1,11 +1,9 @@
 extends layout
 
 block content
-
   each image in images
-    img(src=image.path)
-    br
-    a(href=image.download) download
-    |
-    a(href=image.path) view
-    br
+    div(class="image")
+      img(src=image.path)
+      br
+      a(href=image.download) download
+      a(href=image.path) view
