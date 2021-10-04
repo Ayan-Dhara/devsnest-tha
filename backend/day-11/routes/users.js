@@ -19,7 +19,7 @@ router.post('/register', validateSignUp, async (req, res) => {
   if (pUser) {
     res.status(401)
       .send({
-        message: "email registered"
+        message: "email already registered"
       })
   } else {
     body.name = body.name || ""

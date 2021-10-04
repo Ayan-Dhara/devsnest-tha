@@ -1,5 +1,6 @@
 const validateSignUp = (req, res, next) => {
   const {name, email, password, confirm} = req.body
+  console.log(name, email, password, confirm)
   if(
     name &&
     email &&
